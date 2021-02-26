@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./Card";
 
 // Got to import images for 6 cards'
+import mcdonalds from "../Assets/mcdonalds.jpg";
+
 
 export default function HomePage( props ) {
     // return the values of the 6 cards'
@@ -12,7 +14,7 @@ export default function HomePage( props ) {
                 <Card
                     name = "McDonalds"
                     price = "$"
-                    img = "src\Assets\mcdonalds.jpg"
+                    img = { mcdonalds }
                 />
                 <Card
                     name = "Sweetgreen"
