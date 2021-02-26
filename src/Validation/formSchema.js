@@ -1,6 +1,6 @@
 import * as yup from "yup";
 
-export default yup.object().shape({
+const formSchema = yup.object().shape({
 
     pizzaSize: yup
         .string()
@@ -21,6 +21,5 @@ export default yup.object().shape({
 
     addOn: yup.string(),
 
-
-
 });
+export default formSchema

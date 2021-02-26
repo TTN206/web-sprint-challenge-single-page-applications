@@ -3,7 +3,11 @@ import Card from "./Card";
 
 // Got to import images for 6 cards'
 import mcdonalds from "../Assets/mcdonalds.jpg";
-
+import sweetgreen from "../Assets/sweetgreen.jpg";
+import startbucks from "../Assets/starbucks.png";
+import chickfila from "../Assets/chickfila.jpg";
+import tacodelmar from "../Assets/tacodelmar.jpg";
+import popeyes from "../Assets/popeyes.jpg";
 
 export default function HomePage( props ) {
     // return the values of the 6 cards'
@@ -19,27 +23,27 @@ export default function HomePage( props ) {
                 <Card
                     name = "Sweetgreen"
                     price = "$"
-                    img = "src\Assets\sweetgreen.jpg"
+                    img = { sweetgreen }
                 />
                 <Card
                     name = "Starbucks"
                     price = "$"
-                    img = "src\Assets\starbucks.png"
+                    img = { startbucks }
                 />
                 <Card
                     name = "Chick-Fil-a"
                     price = "$"
-                    img = "src\Assets\chickfila.jpg"
+                    img = { chickfila }
                 />
                 <Card
                     name = "Taco-Del-Mar"
                     price = "$"
-                    img = "src\Assets\tacodelmar.jpg"
+                    img = { tacodelmar }
                 />
                 <Card
                     name = "Popeyes"
                     price = "$"
-                    img = "src\Assets\popeyes.jpg"
+                    img = { popeyes }
                 />
             </div>
         </div>

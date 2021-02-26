@@ -34,13 +34,15 @@ const App = () => {
   const [ disabled, setDisabled ] = useState( initialDisabled );
     //////////////// HELPERS ////////////////
   const postPizza = newPizza => {
-    axios.post( `https:.//reqres.in/api/orders`, newPizza )
+    axios
+      .post( `https:.//reqres.in/api/orders`, newPizza )
       .then(( response ) => setPizza(
         [ response.data, ...pizza ]
       ))
       .catch(( error ) => {
         console.log( error, "Houston, we have a problem" )
       })
+      setFormValues( initialFormValues )
   };
     //////////////// EVENT HANDLERS ////////////////
   const inputChange = ( name, value ) => {
