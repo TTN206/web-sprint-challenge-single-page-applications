@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
-import Body from "./HomePage";
+import HomePage from "./HomePage";
 import Footer from "./Footer";
 
 export default function Home ( props ) {
     return (
         <div className = "webpage-div">
             <Header />
-            <Body />
+            <HomePage />
             <Footer />
         </div>
     );

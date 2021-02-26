@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import NavBar from "./NavBar";
+import NavBar from "./Navigation";
 import Footer from "./Footer";
 
 export default function Order ( props ) {

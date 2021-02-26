@@ -1,6 +1,6 @@
 import React from "react";
 // IMPORT THE NAV, PIZZA BODY, FOOTER
-import NavBar from "./NavBar";
+import NavBar from "./Navigation";
 import Pizza from "./Pizza";
 import Footer from "./Footer";
 
