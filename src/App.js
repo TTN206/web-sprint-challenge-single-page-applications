@@ -56,7 +56,7 @@ const App = () => {
     })
     .catch(( error ) => {
       setFormErrors({
-        ...formErrors, [ name ]: error.formErrors[ 0 ],  
+        ...formErrors, [ name ]: error.errors[ 0 ],  
       })
     })
     setFormValues({

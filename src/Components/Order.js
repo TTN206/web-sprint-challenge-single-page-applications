@@ -1,6 +1,6 @@
 import React from "react";
-import Form from "./Form";
 import NavBar from "./Navigation";
+import Form from "./Form";
 import Footer from "./Footer";
 
 export default function Order ( props ) {
@@ -19,10 +19,5 @@ export default function Order ( props ) {
             />
             <Footer />
         </div>
-
-
-
-
-
     )
 }
